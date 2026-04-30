@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreSystemsAndSimulations</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a192f;
+            color: white;
+        }
+
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ccd6f6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #64ffda;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 50px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #112240;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #020c1b;
+            color: #8892b0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CoreSystemsAndSimulations</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Engineering the Future Through Simulation</h2>
+    <p>Advanced systems engineering, modeling and simulation solutions for modern challenges.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        CoreSystemsAndSimulations delivers high-quality engineering solutions focused on precision,
+        innovation, and reliability. We specialize in complex systems and cutting-edge simulation technologies.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Systems Engineering</h3>
+            <p>Design and optimization of complex technical systems.</p>
+        </div>
+
+        <div class="card">
+            <h3>Simulation & Modeling</h3>
+            <p>High-fidelity simulations for accurate predictions and insights.</p>
+        </div>
+
+        <div class="card">
+            <h3>Software Development</h3>
+            <p>Custom-built solutions tailored to your needs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Data Analysis</h3>
+            <p>Transforming data into actionable intelligence.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Us</h2>
+    <ul>
+        <li>High-quality solutions</li>
+        <li>Experienced team</li>
+        <li>Cutting-edge technology</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <form>
+        <input type="text" placeholder="Name" required><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <textarea placeholder="Message" rows="5" required></textarea><br><br>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 CoreSystemsAndSimulations</p>
+</footer>
+
+</body>
+</html>
